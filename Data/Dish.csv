@@ -1,0 +1,250 @@
+name,id,counts,group,age_group
+Vanilla Ice Cream,5,2639,Dessert,1
+Pies,9,989,Dessert,1
+Cocoa,11,2429,Dessert,1
+Ice Cream,14,1463,Dessert,1
+Rice Pudding,17,1022,Dessert,1
+Raisins,24,969,Dessert,1
+Assorted Cakes,37,2254,Dessert,1
+Peach Pie,62,641,Dessert,1
+Chocolate Ice Cream,63,1818,Dessert,1
+Pumpkin Pie,65,753,Dessert,1
+Strawberry Ice Cream,69,1263,Dessert,1
+Cakes,76,490,Dessert,1
+Charlotte Russe,79,983,Dessert,1
+Coffee Ice Cream,88,924,Dessert,1
+Dessert,99,872,Dessert,1
+Assorted Cake,100,1125,Dessert,1
+Mince Pie,108,755,Dessert,1
+Welsh Rarebit,70,818,Dessert,1
+Green Apple Pie,72,476,Dessert,1
+Petits Fours,90,1159,Dessert,1
+Meringue Glacee,129,831,Dessert,1
+Berries,4,933,Dessert,1
+Fruits,10,1073+2089,Dessert,1
+Watermelon,38,867,Dessert,1
+Bananas,46,1296,Dessert,1
+Plums,75,558,Dessert,1
+Figs,97,534,Dessert,1
+Tomato,125,503,Dessert,1
+Orange Juice,1,2502,Drink,1
+Apple Juice,2,1508,Drink,1
+Demi Tasse,6,4014,Drink,1
+Tea,7,5522,Drink,1
+Cafe,16,11294,Drink,1
+Sauterne,36,660,Drink,1
+Maraschino,39,547,Drink,1
+Pineapple Juice,48,597,Drink,1
+Liqueurs,71,528,Drink,1
+Grape Juice,86,1263,Drink,1
+Ginger Ale,89,544,Drink,1
+Lemonade,102,505,Drink,1
+Roman Punch,112,713,Drink,1
+Buttermilk,122,1003,Drink,1
+St Julien,58,550,Drink,1
+Port,66,663,Drink,1
+Sherry,67,470,Drink,1
+Sanka,101,627,Drink,1
+Benedictine,111,805,Drink,1
+Pontet Canet,132,486,Drink,1
+Apollinaris,135,1743,Drink,1
+Mashed Potatoes,3,3468,Food,1
+Baked Potatoes,8,1867,Food,1
+Ham,13,2001,Food,1
+Chicken,19,888,Food,1
+Apple Pie,22,1908,Food,1
+Roast Beef,23,1837,Food,1
+Spinach,25,1059,Food,1
+Pork Chops,26,542,Food,1
+Corned Beef,27,1161,Food,1
+Boiled Eggs (2),28,1120,Food,1
+Cold Roast Beef,29,1098,Food,1
+Scrambled Eggs,30,946,Food,1
+Fried Potatoes,31,886,Food,1
+Boiled Potatoes,32,3043,Food,1
+Stewed Tomatoes,34,2089,Food,1
+Green Peas,40,2204,Food,1
+Fried Eggs,42,904,Food,1
+Toast,44,519,Food,1
+Hennessey,47,762,Food,1
+Plain Omelet,52,1248,Food,1
+Ham And Eggs,54,850,Food,1
+Corn,56,678,Food,1
+Fried Egg Plant,59,1063,Food,1
+Dry Toast,60,1009,Food,1
+Cauliflower,61,972,Food,1
+Buttered Toast,64,767,Food,1
+Milk,77,2432,Food,1
+Tenderloin Steak,80,774,Food,1
+Cold Ham,82,782,Food,1
+Mutton Chops (2),83,827,Food,1
+Macaroons,87,708,Food,1
+Cold Corned Beef,92,564,Food,1
+Lima Beans,93,1550,Food,1
+Cream Cheese,94,1343,Food,1
+Tongue,95,766,Food,1
+Pickled Beets,98,510,Food,1
+Boiled Rice,104,1119,Food,1
+Shirred Eggs,106,624,Food,1
+Sweet Potatoes,107,572,Food,1
+Milk Toast,110,1028,Food,1
+Brussels Sprouts,114,1105,Food,1
+Oatmeal,115,748,Food,1
+Rolls,116,552,Food,1
+Caviar,119,678,Food,1
+Stewed Prunes,120,2003,Food,1
+Ham Sandwich,123,897,Food,1
+French Fried Potatoes,126,2231,Food,1
+Chicken Broth,131,583,Food,1
+Fried Sweet Potatoes,137,980,Food,1
+Chicken Sandwich,138,898,Food,1
+Tongue Sandwich,140,707,Food,1
+Sardines,141,1526,Food,1
+Blue Point Oysters,147,797,Food,1
+Hominy,57,555,Food,1
+Little Neck Clams,68,1701,Food,1
+Clam Chowder,74,603,Food,1
+String Beans,78,1961,Food,1
+New Beets,91,738,Food,1
+Macaroni Au Gratin,103,600,Food,1
+Potatoes Lyonnaise,113,1472,Food,1
+Squab,143,573,Food,1
+Succotash,146,964,Food,1
+Grape Fruit,134,1760,Dessert,1
+Potato Salad,84,1811,Sides,1
+Brie,85,1544,Sides,1
+Consomme,105,1117,Sides,1
+Cigars,128,1294,Sides,1
+Brie Cheese,130,585,Sides,1
+Roquefort,136,1558,Sides,1
+American Cheese,12,2037,Sides,1
+Salad,15,1107,Sides,1
+Cheese,18,2094,Sides,1
+Lobster Salad,20,2082,Sides,1
+Pickles,21,498,Sides,1
+Crackers,35,1038,Sides,1
+Camembert,41,1427,Sides,1
+Asparagus,43,659,Sides,1
+Chow Chow,45,1381,Sides,1
+Olives,49,4799,Sides,1
+Chicken Salad,50,2498,Sides,1
+Chocolate,51,1833,Sides,1
+Lettuce,53,1026,Sides,1
+Anchovies,55,678,Sides,1
+Salted Almonds,73,1212,Sides,1
+Tomato Soup,81,558,Sides,1
+Nuts,96,760,Sides,1
+Lettuce Salad,109,2308,Sides,1
+Apple Sauce,117,1105,Sides,1
+Stuffed Olives,118,687,Sides,1
+Swiss Cheese,121,1313,Sides,1
+Shrimp Salad,124,719,Sides,1
+Cucumber Salad,127,1298,Sides,1
+Roquefort Cheese,133,2063,Sides,1
+Cigarettes,139,831,Sides,1
+Cucumbers,142,1124,Sides,1
+Cottage Cheese,144,475,Sides,1
+Queen Olives,145,1058,Sides,1
+Pound Cake,150,579,Dessert,2
+Neapolitan Ice Cream,165,818,Dessert,2
+French Pastry,170,872,Dessert,2
+Baked Apple With Cream,200,733,Dessert,2
+Peach Melba,211,889,Dessert,2
+Cantaloupe,176,762,Dessert,2
+Apple,181,701,Dessert,2
+Fruit Salad,185,854,Dessert,2
+Orange [1],214,1091,Dessert,2
+Clam Juice,151,571,Drink,2
+Iced Tea,161,1304,Drink,2
+Iced Coffee,164,941,Drink,2
+Lemon Water Ice,173,654,Drink,2
+Cafe Parfait,175,960,Drink,2
+French Coffee,179,572,Drink,2
+Oyster Cocktail,182,649,Drink,2
+Shrimp Cocktail,186,776,Drink,2
+Grapefruit Juice,192,536,Drink,2
+Grape Fruit Half,194,1317,Drink,2
+Cafe Noir,197,845,Drink,2
+Marmalade,199,1060,Drink,2
+Orange Water Ice,203,579,Drink,2
+Orange Marmalade,212,606,Drink,2
+Lobster Cocktail,216,1194,Drink,2
+Chiffonade Salad,217,721,Drink,2
+Turkish Coffee,219,777,Drink,2
+Postum,189,498,Drink,2
+Edam,202,569,Drink,2
+Neufchatel,213,527,Drink,2
+Creme De Menthe,154,661,Drink,2
+Oyster Stew,148,628,Food,2
+French Peas,149,1324,Food,2
+Bacon And Eggs,153,716,Food,2
+Celeri,155,5513,Food,2
+Cherrystone Clams,157,924,Food,2
+Cream Toast,158,699,Food,2
+Lamb Chops (2),162,1035,Food,2
+Clam Broth,166,813,Food,2
+Eggs Poached On Toast (2),167,786,Food,2
+Sirloin Steak,169,1162,Food,2
+Smoked Salmon,171,772,Food,2
+Club Sandwich,174,964,Food,2
+Potatoes Saute,177,747,Food,2
+Lady Fingers,184,556,Food,2
+Broiled Ham,187,815,Food,2
+Bread And Butter,191,969,Food,2
+Saratoga Chips,193,507,Food,2
+Beluga Caviar,196,520,Food,2
+Lamb,204,462,Food,2
+Gherkins,207,515,Food,2
+Calf's Liver And Bacon,208,505,Food,2
+New String Beans,210,915,Food,2
+Golden Buck,160,540,Food,2
+Blue Points,152,1579,Food,2
+Gorgonzola,159,589,Sides,2
+Gruyere,168,565,Sides,2
+Cape Cods,183,617,Sides,2
+Camembert Cheese,156,1224,Sides,2
+Lettuce And Tomato Salad,163,1013,Sides,2
+Celery Salad,172,755,Sides,2
+Watercress Salad,178,712,Sides,2
+Edam Cheese,180,1222,Sides,2
+Gorgonzola Cheese,188,587,Sides,2
+Tomato Salad,190,1413,Sides,2
+Combination Salad,195,929,Sides,2
+Sliced Tomatoes,198,1464,Sides,2
+Waldorf Salad,201,631,Sides,2
+Romaine Salad,205,1255,Sides,2
+Sliced Cucumbers,206,717,Sides,2
+Escarole Salad,209,943,Sides,2
+Chicory Salad,215,883,Sides,2
+Biscuit Tortoni,218,1064,Sides,2
+Baked Apple,220,864,Dessert,3
+Cup Custard,238,1197,Dessert,3
+Malaga Grapes,228,567,Dessert,3
+Cherry Stones,240,766,Dessert,3
+Crab Flake Cocktail,223,914,Drink,3
+Raspberry Water Ice,230,502,Drink,3
+White Rock,231,654,Drink,3
+Fruit Cocktail,235,504,Drink,3
+Lynnhavens,247,467,Drink,3
+Green Corn,222,525,Food,3
+Stuffed Celery,227,577,Food,3
+Cold Slaw,229,523,Food,3
+Stewed Corn,232,755,Food,3
+New Lima Beans,233,560,Food,3
+Sardine Sandwich,234,536,Food,3
+Radishes,237,3465,Food,3
+Corned Beef Hash,241,749,Food,3
+Squab Chicken,246,561,Food,3
+Virginia Ham,250,513,Food,3
+Little Necks,226,788,Food,3
+Artichoke,239,564,Food,3
+Plover,248,594,Food,3
+Russian Dressing,225,472,Sides,3
+Sweet Pickles,221,684,Sides,3
+Green Olives,224,593,Sides,3
+Salted Nuts,236,474,Sides,3
+Cocktail Sauce,242,672,Sides,3
+Liederkranz Cheese,243,556,Sides,3
+Ripe Olives,244,1015,Sides,3
+Neufchatel Cheese,245,520,Sides,3
+Nesselrode Pudding,249,717,Sides,3

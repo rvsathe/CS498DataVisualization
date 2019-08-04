@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>What's the Menu?</title>
+
+		<meta name="description" content="The Treasure Chest of Menus">
+		<meta name="author" content="Reshma Sathe">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bubble_chart.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Load D3 -->
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+
+        <style>
+            .axis {
+                stroke-width: 1px;
+                stroke: white;
+                fill:white;
+                font-size: 12px;
+            }
+            .category-name {
+                font-size: 20px;
+                margin: 0 !important;
+            }
+            .key-dot {
+                display: inline-block;
+                height: 12px;
+                margin-right: .5em;
+                width: 12px;
+
+            }
+            .Dessert { background: #FF6138}
+            .Drink { background: #FFFF9D}
+            .Food { background: #BEEB9F }
+            .Sides{ background: #00A388}
+
+            #categoryLegend{
+                overflow:hidden;
+                font-size: 15px;
+
+            }
+            #backh2{
+                color: blueviolet;
+            }
+
+            #smallBack{
+                color: black;
+                font-style: italic;
+            }
+
+
+            .categoryLegend {
+                float:left;
+                margin-right: 1em;
+            }
+
+            .area {
+                fill: orange;
+                fill-opacity: 0.6;
+                clip-path: url(#clip);
+            }
+
+            .zoom {
+                cursor: move;
+                fill: none;
+                pointer-events: all;
+            }
+
+        </style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides"> <!-- Slide -->
+				<section data-background="images/formal_table.jpg" data-background-transition="concave">
+					<h2 style="color:orangered;"><i>What's the Menu?</i></h2>
+					<p style="color:orangered;"> Menus of Years Past.</p>
+					<p style="color:red;">A Treasure chest of menus from past years for true foodies.</p>
+					<p style="color:red;">
+						<small>By Reshma Sathe</a></small>
+					</p>
+				</section>
+                <section>
+                        <h2>About and How to Use.</h2>
+                        <small>
+                            <p> Showcasing the menus present on the <a
+								href="http://menus.nypl.org/">NYPL site.</a>.
+								This is an Interactive Slide-show with bubble charts and an area chart.
+							</p>
+							<p>To navigate your way, please press the buttons in the corner.
+								The highlighted arrows indicate which direction you can move in.
+							</p>
+							<figure>
+
+									<img src="images/frank-old.png" style="max-width:20%;max-height:20%;" alt="Portrait of Frank E. Buttolph">
+									<br>
+									<small><a href="http://curatingmenus.org/articles/when-a-woman-collects-menus/">Frank E. Buttolph</a>, The Woman behind the menus.</small>
+		
+							</figure>
+							<div class="fragment" data-fragment-index="0" class="navigate-down" style="cursor: pointer;">
+								<img src="images/arrow-down.png" style="border: none; background:none; box-shadow:none;" alt="Arrow Down"></div>
+                        </small>
+				</section>
+				<section>
+					<h2>What you see.</h2>
+					<ol>
+							<li>
+							The first scene is a chart showing when the menus were collected.
+							</li>
+							<li>
+							The second shows the most popular dishes.
+							</li>
+							<li>
+							The third shows the dishes by age (100 years,75 years,less than 75 years)
+							</li>
+
+					</ol>
+				</section>
+				<section data-background-transition="concave">
+
+                    <h2 id="backh2">Menu Appearances</h2>
+                    <div id="areaChart"></div>
+					<small id ="smallBack">Please move the grey bar to see more details.</small>
+                </section>
+				<section>
+					<h3>Most Popular Dishes</h3>
+					<div id="chartTop20" style="max-height:60%;"></div>
+				</section>
+                <section>
+                    <section>
+                        <section>
+
+                            <div class="container">
+
+                                <div style="margin-left:60px;" id="toolbar">
+                                    <button id="all" class="button active">Top 250 Dishes</button>
+                                    <button id="year" class="button">Dishes by Age</button>
+                                </div>
+                                <div id="categoryLegend">
+										<div class="categoryLegend">
+											<p class="category-name"><span class="key-dot Dessert"></span>&ensp;Dessert&ensp;</p> 
+										</div>
+										<br>
+										<div class="categoryLegend">
+											<p class="category-name"><span class="key-dot Drink"></span>&ensp;Drink&ensp;</p> 
+										</div>
+										<br>
+										<div class="categoryLegend">
+											<p class="category-name"><span class="key-dot Food"></span>&ensp;Food&ensp;</p>
+										</div>
+										<br>
+										<div class="categoryLegend">
+											<p class="category-name"><span class="key-dot Sides"></span>&ensp;Sides&ensp;</p>
+										</div>
+									</div>
+                                <div id="vis"></div>
+                                
+
+                            </div>
+
+                        </section>
+                    </section>
+                </section>
+			</div>
+		</div> <!-- reveal div closed-->
+		
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+		<script src="scripts/top20.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+
+		<script src="scripts/areaChart.js"></script>
+        <script src="scripts/tooltip.js"></script>
+        <script src="scripts/bubble_chart.js"></script>
+	</body>
+</html>
